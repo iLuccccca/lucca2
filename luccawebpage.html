@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <title>Lucca</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link href="layout/styles/layout.css" rel="stylesheet" type="text/css" media="all">
+    
+    <style>
+      
+
+.bg {
+  animation:slide 3s ease-in-out infinite alternate;
+  background-image: linear-gradient(-60deg, #6c3 50%, #09f 50%);
+  bottom:0;
+  left:-50%;
+  opacity:.5;
+  position:fixed;
+  right:-50%;
+  top:0;
+  z-index:-1;
+}
+
+.bg2 {
+  animation-direction:alternate-reverse;
+  animation-duration:4s;
+}
+
+.bg3 {
+  animation-duration:5s;
+}
+
+.content {
+  background-color:rgba(255,255,255,.8);
+  border-radius:.25em;
+  box-shadow:0 0 .25em rgba(0,0,0,.25);
+  box-sizing:border-box;
+  left:50%;
+  padding:10vmin;
+  position:fixed;
+  text-align:center;
+  top:50%;
+  transform:translate(-50%, -50%);
+}
+
+h1 {
+  font-family:monospace;
+}
+
+@keyframes slide {
+  0% {
+    transform:translateX(-25%);
+  }
+  100% {
+    transform:translateX(25%);
+  }
+}
+
+</style>
+
+
+
+<style>
+@import url("fontawesome-free/css/fontawesome-all.min.css");
+
+*, *::before, *::after{transition:all .3s ease-in-out;}
+#mainav form *{transition:none !important;}
+
+
+/* Font Awesome Social Icons
+--------------------------------------------------------------------------------------------------------------- */
+.faico{margin:0; padding:0; list-style:none;}
+.faico li{display:inline-block; margin:8px 5px 0 0; padding:0; line-height:normal;}
+.faico li:last-child{margin-right:0;}
+.faico a{display:inline-block; width:36px; height:36px; line-height:36px; font-size:18px; text-align:center;}
+
+.faico a{color:inherit; background-color:rgba(255,255,255,.2);}
+.faico a:hover{color:#FFFFFF;}
+
+.faicon-facebook:hover{background-color:#3B5998;}
+.faicon-instagram:hover{background-color:#EA4C89;}
+
+.faicon-twitter:hover{background-color:#00ACEE;}
+.faicon-github:hover{background-color:#4E658E;}
+    </style>
+  
+    </head>
+    <body id="top">
+      <div class="bg"></div>
+      <div class="bg bg2"></div>
+      <div class="bg bg3"></div>
+        <div class="content">
+          <h1 class="logoname"><a href="https://en.wikipedia.org/wiki/Luke_Bryan">Bryan<span> Fradius</span></a></h1>
+          <p>My name is Bryan Fradius. I am currently a University student with the dreams of creating a game changing application. Fingers crossed.</p>
+          <ul class="faico clear">
+            <li><a class="faicon-facebook" href="https://en-gb.facebook.com/bryan.lucas.75685962"><i class="fab fa-facebook"></i></a></li>
+            <li><a class="faicon-instagram" href="https://www.instagram.com/_lu.cca/"><i class="fab fa-instagram"></i></a></li>
+            <li><a class="faicon-twitter" href="https://twitter.com/yesLucca"><i class="fab fa-twitter"></i></a></li>
+            <li><a class="faicon-github" href="https://github.com/iLuccccca"><i class="fab fa-github"></i></a></li>
+          </ul>
+        </div>
+        
+        
+        
+
+      </footer>
+    </div>
+    
+ 
+    
+    </body></html>
